@@ -1,6 +1,6 @@
-const Web3 = require("web3");
-const fs = require("fs");
-const WRY_CONTRACT_ABI = JSON.parse(fs.readFileSync("wry_contract_abi.json"));
+const Web3 = require('web3');
+const fs = require('fs');
+const WRY_CONTRACT_ABI = require('./wry_contract_abi.json'); //JSON.parse(fs.readFileSync("../wry_contract_abi.json"));
 const WRY_BSC_CONTRACT_ADDRESS = "0x4F0c54c06bC401D02Df557FD65eE30F622155cf6";
 const GAS_PRICE = 10000000000; // 10 Gwei
 const WRY_GAS_LIMIT = 51338; 
