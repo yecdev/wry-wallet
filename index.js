@@ -3,7 +3,7 @@ const fs = require('fs');
 const WRY_CONTRACT_ABI = require('./wry_contract_abi.json');
 const WRY_BSC_CONTRACT_ADDRESS = "0x4F0c54c06bC401D02Df557FD65eE30F622155cf6";
 const GAS_PRICE = 10000000000; // 10 Gwei
-const WRY_GAS_LIMIT = 51338; 
+const WRY_GAS_LIMIT = 75000; 
 const NUM_WRY_DECIMALS = 8;
 
 var WryWallet = function WryWallet(private_key_file_path, provider_url) {
